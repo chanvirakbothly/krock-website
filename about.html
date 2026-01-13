@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="km">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | KROCK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html" aria-label="KROCK Home">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>KROCK</h1>
+          <small data-i18n="made">Made in Cambodia</small>
+        </div>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <button class="btn" id="lang-km" type="button" title="Khmer"><span data-i18n="lang.km">KM</span></button>
+        <button class="btn" id="lang-en" type="button" title="English"><span data-i18n="lang.en">EN</span></button>
+        <a class="btn primary" href="contact.html"><span data-i18n="nav.contact">Contact</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section">
+  <div class="container">
+    <div class="card" style="padding:22px">
+      <h2 data-i18n="about.title">About</h2>
+      <p data-i18n="about.p1"></p>
+      <p data-i18n="about.p2"></p>
+
+      <div class="grid">
+        <div class="card tile col-6">
+          <h3 class="section-title" data-i18n="about.values.t">Core values</h3>
+          <ul class="list">
+            <li data-i18n="about.values.1"></li>
+            <li data-i18n="about.values.2"></li>
+            <li data-i18n="about.values.3"></li>
+            <li data-i18n="about.values.4"></li>
+          </ul>
+        </div>
+        <div class="card tile col-6">
+          <h3 class="section-title" data-i18n="about.cap.t">Capabilities</h3>
+          <ul class="list">
+            <li data-i18n="about.cap.1"></li>
+            <li data-i18n="about.cap.2"></li>
+            <li data-i18n="about.cap.3"></li>
+            <li data-i18n="about.cap.4"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="notice" style="margin-top:14px">
+        <b>Customize</b>
+        Replace this text with your official company story (year founded, factory capacity, certifications, etc.).
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div data-i18n="footer.note">© KROCK.</div>
+    <div class="small">Tip: Edit text in <code>assets/app.js</code> (I18N dictionary) and product tables in <code>products.html</code>.</div>
+  </div>
+</footer>
+</body>
+</html>

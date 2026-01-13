@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="km">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | KROCK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html" aria-label="KROCK Home">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>KROCK</h1>
+          <small data-i18n="made">Made in Cambodia</small>
+        </div>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <button class="btn" id="lang-km" type="button" title="Khmer"><span data-i18n="lang.km">KM</span></button>
+        <button class="btn" id="lang-en" type="button" title="English"><span data-i18n="lang.en">EN</span></button>
+        <a class="btn primary" href="contact.html"><span data-i18n="nav.contact">Contact</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section">
+  <div class="container">
+    <div class="card" style="padding:22px">
+      <h2 data-i18n="projects.title">Projects</h2>
+      <p class="notice" data-i18n="projects.note"></p>
+
+      <table class="table" role="table">
+        <thead>
+          <tr>
+            <th data-i18n="projects.tbl.h1">Project</th>
+            <th data-i18n="projects.tbl.h2">Location</th>
+            <th data-i18n="projects.tbl.h3">Period</th>
+            <th data-i18n="projects.tbl.h4">Employer</th>
+            <th data-i18n="projects.tbl.h5">Scope</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Water Treatment Plant & Drainage Improvement</td>
+            <td>Phnom Penh</td>
+            <td>2012–2015</td>
+            <td>Municipality of Phnom Penh</td>
+            <td>Civil work, supply of concrete pipe, manhole, water treatment chamber; flood mitigation in heavy-traffic areas.</td>
+          </tr>
+          <tr>
+            <td>Waste Water Treatment Plant</td>
+            <td>Tbong Khmum Province</td>
+            <td>Dec 2019 – Dec 2021</td>
+            <td>Tbong Khmum Administration</td>
+            <td>Design and build for waste water treatment; capacity mentioned: 1000 m³/hour.</td>
+          </tr>
+          <tr>
+            <td>Enlargement Project of National Road No. 6A</td>
+            <td>Kampong Cham – Kandal – Phnom Penh</td>
+            <td>Jan – Jun 2014</td>
+            <td>Shanghai Construction Group</td>
+            <td>Road works and AC pavement (sample portfolio).</td>
+          </tr>
+          <tr>
+            <td>Improvement of National Road No. 1 (Cambodia)</td>
+            <td>Cambodia</td>
+            <td>Jan 2010 – Apr 2011</td>
+            <td>Ministry of Public Works & Transport</td>
+            <td>Asphalt concrete road and related works (sample portfolio).</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="notice" style="margin-top:14px">
+        <b>Add more projects:</b> You can duplicate rows in this table and attach photos in a /assets/photos folder later.
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div data-i18n="footer.note">© KROCK.</div>
+    <div class="small">Tip: Edit text in <code>assets/app.js</code> (I18N dictionary) and product tables in <code>products.html</code>.</div>
+  </div>
+</footer>
+</body>
+</html>

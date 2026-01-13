@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="km">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | KROCK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html" aria-label="KROCK Home">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>KROCK</h1>
+          <small data-i18n="made">Made in Cambodia</small>
+        </div>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <button class="btn" id="lang-km" type="button" title="Khmer"><span data-i18n="lang.km">KM</span></button>
+        <button class="btn" id="lang-en" type="button" title="English"><span data-i18n="lang.en">EN</span></button>
+        <a class="btn primary" href="contact.html"><span data-i18n="nav.contact">Contact</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section">
+  <div class="container">
+    <div class="card" style="padding:22px">
+      <h2 data-i18n="contact.title">Contact</h2>
+
+      <div class="grid">
+        <div class="card tile col-6">
+          <h3 data-i18n="contact.krock">KROCK</h3>
+          <div class="kv">
+            <div><b data-i18n="contact.addr">Address</b><span>#100, St.592, Boeung Kok II, Khan Toul Kork, Phnom Penh</span></div>
+            <div><b data-i18n="contact.phone">Phone</b><span>+855 23 887 168 • +855 60 744 888 • +855 66 212 888</span></div>
+            <div><b data-i18n="contact.web">Website</b><span><a href="https://www.krock.com.kh" target="_blank" rel="noreferrer">www.krock.com.kh</a></span></div>
+            <div><b data-i18n="contact.email">Email</b><span><a href="mailto:info@krock.com.kh">info@krock.com.kh</a> <span class="small">(change if needed)</span></span></div>
+          </div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
+            <a class="btn primary" href="tel:+85560744888"><span data-i18n="cta.call">Call</span></a>
+            <a class="btn" href="mailto:info@krock.com.kh"><span data-i18n="cta.email">Email</span></a>
+            <a class="btn" href="https://wa.me/85560744888" target="_blank" rel="noreferrer"><span data-i18n="cta.whatsapp">WhatsApp</span></a>
+          </div>
+        </div>
+
+        <div class="card tile col-6">
+          <h3 data-i18n="contact.steel">Steel Division</h3>
+          <div class="kv">
+            <div><b data-i18n="contact.addr">Address</b><span>#857, Russian Federation Blvd, Sangkat Teuk Tla, Khan Sen Sok, Phnom Penh</span></div>
+            <div><b data-i18n="contact.phone">Phone</b><span>+855 60 744 888 • +855 66 211 888 • +855 60 756 888</span></div>
+            <div><b data-i18n="contact.email">Email</b><span><a href="mailto:info@wikitrade.com.kh">info@wikitrade.com.kh</a></span></div>
+            <div><b data-i18n="contact.web">Website</b><span><a href="https://www.wikitrade.com.kh" target="_blank" rel="noreferrer">wikitrade.com.kh</a> <span class="small">(if available)</span></span></div>
+          </div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
+            <a class="btn primary" href="tel:+85560756888"><span data-i18n="cta.call">Call</span></a>
+            <a class="btn" href="mailto:info@wikitrade.com.kh"><span data-i18n="cta.email">Email</span></a>
+            <a class="btn" href="https://wa.me/85560756888" target="_blank" rel="noreferrer"><span data-i18n="cta.whatsapp">WhatsApp</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card tile" style="margin-top:14px">
+        <h3 class="section-title" data-i18n="contact.map">Map</h3>
+        <p class="meta">Embed Google Maps here (copy the iframe code from Google Maps and paste it below).</p>
+        <div class="notice">Placeholder: <code>&lt;iframe src="..." width="100%" height="360" style="border:0;" loading="lazy"&gt;&lt;/iframe&gt;</code></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div data-i18n="footer.note">© KROCK.</div>
+    <div class="small">Tip: Edit text in <code>assets/app.js</code> (I18N dictionary) and product tables in <code>products.html</code>.</div>
+  </div>
+</footer>
+</body>
+</html>
